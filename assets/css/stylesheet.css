@@ -1,0 +1,528 @@
+.container .section_title {
+  font-family: "HiraKakuProW6";
+  font-size: 50px;
+}
+
+.container .subtitle_and_sentence {
+  width: 480px;
+  display: inline-block;
+  text-align: left;
+}
+
+.container .subtitle_and_sentence .subtitle {
+  display: inline-block;
+  font-family: "HiraKakuProW6";
+  font-size: 22px;
+  padding: 14px 18px 14px 18px;
+  background-color: #111;
+  color: #fff;
+}
+
+.container .subtitle_and_sentence .bold_sentence {
+  display: inline-block;
+  padding-left: 30px;
+  font-family: "HiraKakuProW6";
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.container #header {
+  height: 100%;
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+.container #header .nav {
+  font-family: 'Railway';
+  font-size: 12px;
+  list-style: none;
+  text-align: right;
+}
+
+.container #header .nav li {
+  display: inline-block;
+}
+
+.container #header .nav li a {
+  display: block;
+  padding: 6px 12px 6px 13px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #111;
+}
+
+.container #header .nav li .frame {
+  font-weight: bold;
+  border: solid;
+  border-width: 1px;
+  border-radius: 18px;
+}
+
+.container #header .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.container #header .wrapper #header_logo1 {
+  margin-right: auto;
+  padding-bottom: 100px;
+}
+
+.container #header .wrapper #header_logo1 img {
+  width: 340px;
+  height: 535px;
+}
+
+.container #header .wrapper #header_logo2 {
+  margin-top: auto;
+}
+
+.container #header .wrapper #header_logo2 p {
+  font-family: 'Railway';
+  font-size: 18px;
+  font-weight: 500px;
+}
+
+.container #header .wrapper #header_logo2 img {
+  width: 270px;
+  height: 180px;
+}
+
+.container #main {
+  max-width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container #main #vision {
+  padding-top: 50px;
+  margin-bottom: 250px;
+  text-align: center;
+}
+
+.container #main #vision h1 {
+  display: inline-block;
+  padding: 8px 30px 8px 30px;
+  margin-bottom: 0px;
+  text-align: center;
+  background-color: #111;
+  color: #fff;
+  font-size: 40px;
+  font-family: "HiraKakuProW6";
+}
+
+.container #main #vision p {
+  display: inline-block;
+  text-align: left;
+  font-family: "HiraKakuProW6";
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 3;
+}
+
+.container #main #vision img {
+  display: block;
+  margin: 40px auto 0px auto;
+  height: 50px;
+  width: 160px;
+}
+
+.container #main #about {
+  margin-bottom: 235px;
+}
+
+.container #main #about .wrapper {
+  text-align: left;
+  background-image: url(/assets/images/about_bg.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container #main #about .wrapper img {
+  height: 330px;
+  width: 354px;
+}
+
+.container #main #about #strong_points {
+  margin-top: 80px;
+  display: inline-block;
+  text-align: center;
+}
+
+.container #main #about #strong_points .block {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.container #main #about #strong_points .block img {
+  width: 36px;
+  height: 54px;
+}
+
+.container #main #about #strong_points .block p {
+  display: inline-block;
+  font-family: "HiraKakuProW6";
+  font-size: 14px;
+  padding: 10px 12px 10px 12px;
+  margin: auto 20px auto 10px;
+  background-color: #111;
+  color: #fff;
+  position: relative;
+  top: -20px;
+}
+
+.container #main #works {
+  margin-bottom: 180px;
+}
+
+.container #main #works .wrapper {
+  background-image: url(/assets/images/works_bg.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-align: center;
+  padding: 70px 0px 70px 0px;
+  width: 100%;
+}
+
+.container #main #works .wrapper img {
+  display: inline-block;
+  width: 250px;
+  height: 85px;
+  margin: 0px 10px 0px 30px;
+}
+
+.container #main #members {
+  margin-bottom: 250px;
+}
+
+.container #main #members .wrapper {
+  background-image: url(/assets/images/members_bg.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: 0px 13px 0px 13px;
+}
+
+.container #main #members .wrapper .member {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  width: 220px;
+  height: 510px;
+  margin: 5px 30px 0px 30px;
+}
+
+.container #main #members .wrapper .member img {
+  width: 100%;
+}
+
+.container #main #members .wrapper .member .name {
+  display: inline-block;
+  font-family: "HiraKakuProW6";
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px auto 0px 0px;
+}
+
+.container #main #members .wrapper .member .name_eng {
+  font-family: 'Hiragino Kaku Gothic ProN';
+  font-size: 12px;
+  color: gray;
+  margin: 0px 0px 0px 0px;
+}
+
+.container #main #members .wrapper .member .position {
+  font-family: "HiraKakuProW6";
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0px 0px 0px 0px;
+}
+
+.container #main #members .wrapper .member .hashtag {
+  font-family: "HiraKakuProW6";
+  font-size: 10px;
+  color: #505050;
+  margin: 0px 0px 0px 0px;
+}
+
+.container #main #members .wrapper .member .introduction {
+  font-family: 'Hiragino Kaku Gothic ProN';
+  font-size: 8px;
+  color: gray;
+  margin-bottom: 0px;
+}
+
+.container #main #members .wrapper .member .school {
+  display: inline-block;
+  font-family: 'Hiragino Kaku Gothic ProN';
+  font-size: 8px;
+  color: gray;
+  margin-top: 0px;
+}
+
+.container #main #recruit {
+  margin-bottom: 250px;
+}
+
+.container #main #recruit .section {
+  background-image: url(/assets/images/recruit_bg.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container #main #recruit .section h2 {
+  width: 100%;
+}
+
+.container #main #recruit .section .hyou {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.container #main #recruit .section .hyou h3 {
+  font-family: "HiraKakuProW6";
+  margin-bottom: 0;
+}
+
+.container #main #recruit .section .hyou ul {
+  width: 100%;
+  max-width: 1000px;
+  padding-left: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+.container #main #recruit .section .hyou ul li {
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+}
+
+.container #main #recruit .section .hyou ul li .jobs {
+  font-family: "HiraKakuProW6";
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  height: 54px;
+}
+
+.container #main #recruit .section .hyou ul li .ichigyou_jobs {
+  position: relative;
+  top: 15px;
+}
+
+.container #main #recruit .section .hyou ul li .explain {
+  display: inline-block;
+  font-family: 'Hiragino Kaku Gothic ProN';
+  font-size: 14px;
+  color: #505050;
+  line-height: 1.2;
+  margin-top: auto;
+  margin-bottom: 5px;
+  vertical-align: bottom;
+}
+
+.container #main #recruit .section .hyou ul li .ichigyou_explain {
+  position: relative;
+  top: 7px;
+}
+
+.container #main #recruit .section .hyou #entry_button {
+  font-family: "HiraKakuProW6";
+  font-size: 24px;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 50px;
+  padding: 0px 180px 0px 180px;
+  background-color: #111;
+  color: #fff;
+}
+
+.container #main #company {
+  margin-bottom: 250px;
+}
+
+.container #main #company dl {
+  margin-left: 40px;
+  background-image: url(/assets/images/company_bg.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "HiraKakuProW6";
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 3;
+  height: 250px;
+}
+
+.container #main #company dl dt {
+  float: left;
+  clear: left;
+  margin-right: 0px;
+  width: 100px;
+}
+
+.container #main #company dl dd {
+  float: left;
+}
+
+.container #main #company #map {
+  display: block;
+  width: 80%;
+  height: 400px;
+  margin: 50px auto 0px auto;
+}
+
+.container #main #contact {
+  margin-bottom: 250px;
+  background-image: url(/assets/images/contact_bg.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container #main #contact form ul {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.container #main #contact form ul li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.container #main #contact form ul li label {
+  font-family: "HiraKakuProW6";
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 20px;
+  width: 160px;
+  float: left;
+}
+
+.container #main #contact form ul li input {
+  width: 320px;
+  height: 20px;
+}
+
+.container #main #contact form ul li textarea {
+  width: 320px;
+  height: 130px;
+}
+
+.container #main #contact form p {
+  text-align: center;
+  font-family: 'Hiragino Kaku Gothic ProN';
+  font-size: 12px;
+  color: gray;
+}
+
+.container #main #contact form button {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #111;
+  color: #fff;
+  font-family: 'Hira Kaku Gothic ProN';
+  font-size: 14px;
+  padding: 3px 25px;
+  border-radius: 15px;
+}
+
+.container #footer {
+  display: inline-block;
+  width: 100%;
+  height: 250px;
+  background-color: #111;
+  text-align: left;
+}
+
+.container #footer .menu {
+  display: block;
+  border-bottom: solid;
+  border-color: #fff;
+  border-width: 1px;
+  width: 80%;
+  margin: 50px auto 0px auto;
+}
+
+.container #footer .menu #footer_logo {
+  display: inline-block;
+  width: 100px;
+  height: 33px;
+  margin: 0px 30px 0px 0px;
+}
+
+.container #footer .menu p {
+  display: inline-block;
+  font-family: 'Arial';
+  font-size: 12px;
+  color: #fff;
+  position: relative;
+  top: -10px;
+}
+
+.container #footer .menu ul {
+  float: right;
+  list-style: none;
+  text-align: right;
+  position: relative;
+  top: -10px;
+}
+
+.container #footer .menu ul li {
+  display: inline-block;
+  text-align: right;
+}
+
+.container #footer .menu ul li img {
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+  margin-bottom: 8px;
+}
+
+.container #footer .nav_bg {
+  display: block;
+  width: 80%;
+  text-align: left;
+  margin: 0px auto 0px auto;
+}
+
+.container #footer .nav_bg .nav {
+  list-style: none;
+  display: inline-block;
+  text-align: left;
+  padding-left: 0px;
+  vertical-align: top;
+  margin-right: 40px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.container #footer .nav_bg .nav li {
+  text-decoration: none;
+}
+
+.container #footer .nav_bg .nav li a {
+  font-family: 'Arial';
+  font-size: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+/*# sourceMappingURL=stylesheet.css.map */
