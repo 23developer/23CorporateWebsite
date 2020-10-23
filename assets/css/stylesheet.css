@@ -529,4 +529,29 @@
   color: #fff;
   text-decoration: none;
 }
+
+#thx {
+  text-align: center;
+  height: 500px;
+}
+
+#thx #thx-ja {
+  font-family: "HiraKakuProW6";
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 120px;
+}
+
+#thx #thx-en {
+  font-family: 'Hiragino Kaku Gothic ProN';
+  font-size: 16px;
+  color: gray;
+  margin-top: 0;
+}
+
+#thx img {
+  height: 50px;
+  width: 160px;
+  margin-top: 80px;
+}
 /*# sourceMappingURL=stylesheet.css.map */

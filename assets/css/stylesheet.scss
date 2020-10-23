@@ -530,3 +530,30 @@ $main-font: 'HiraKakuProW6';
         }
     }
 }   
+
+
+// thx.html
+#thx {
+    text-align: center;
+    height: 500px;
+
+    #thx-ja {
+        font-family: $main-font;
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 120px;
+    }
+
+    #thx-en {
+        font-family: 'Hiragino Kaku Gothic ProN';
+        font-size: 16px;
+        color: gray;
+        margin-top: 0;
+    }
+
+    img {
+        height: 50px;
+        width: 160px;
+        margin-top: 80px;
+    }
+}
