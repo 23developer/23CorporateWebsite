@@ -330,14 +330,18 @@
   font-size: 14px;
   color: #505050;
   line-height: 1.2;
-  margin-top: auto;
-  margin-bottom: 5px;
+  margin-top: 8px;
   vertical-align: bottom;
 }
 
 .container #main #recruit .section .hyou ul li .ichigyou_explain {
   position: relative;
-  top: 7px;
+  top: -7px;
+}
+
+.container #main #recruit .section .hyou ul li .nigyou_explain {
+  position: relative;
+  top: 32px;
 }
 
 .container #main #recruit .section .hyou #entry_button {
