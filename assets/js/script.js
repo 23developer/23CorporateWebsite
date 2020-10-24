@@ -1,38 +1,45 @@
 $(document).ready(function(){
-    //navのマウスオーバー時の処理
-    $(".nav").on("mouseover",function(){
-        $("#typo").css({
-            color: "#4dc0b2",
-            backgroundColor: "#ffc042"
-        });
+    //navにマウスオーバー時に文字色変更
+    $('.nav li a').each(function() {
+        if($(this).hasClass("not-frame-nav")){
+            $(this).hover(
+                function(){
+                    $(this).stop().animate({'color': '#F8DD00'},300);
+                },
+                function(){
+                    $(this).stop().animate({'color': '#010101'},300);
+                }
+            )
+        } else{
+            $(this).hover(
+                function(){
+                    $(this).stop().animate({'background-color': '#F8DD00', 'color': '#FFF', 'border-color': '#111'},200);
+                },
+                function(){
+                    $(this).stop().animate({'background-color': '#FFF', 'color': '#111', 'border-color': '#111'},200);
+                }
+        )};
     });
 
-    //マウスアウトしたときに元の色に戻る
-    $("#typo").on("mouseout",function(){
-        $("#typo").css({
-            color: "",
-            backgroundColor: ""
-        });
-    });
 
 
-
-    $('.section_title').addClass("scrollanime slide-left")
+    //フェードイン
+    $('.section_title').addClass("scrollanime slide-left") //セクションタイトルをフェードイン要素に変更
 
     $(window).scroll(function () {
         const wHeight = $(window).height();
         const scrollAmount = $(window).scrollTop();
-        $('.scrollanime').each(function () {
+        $('.scrollanime').each(function () { //scrollanimeクラス要素にフェードインを追加
             const targetPosition = $(this).offset().top;
             if(scrollAmount > targetPosition - wHeight + 100) {
                 if($(this).hasClass("slow-fadein")){
-                    $(this).addClass("slowFadein")
+                    $(this).addClass("slowFadein") //slow-fadeinクラスなら遅い変化
                 } else {
                     $(this).addClass("fadeInDown")
-                }
-            }
-        })
-    })
+                };
+            };
+        });
+    });
 
 
 });

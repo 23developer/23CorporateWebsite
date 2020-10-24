@@ -3,12 +3,14 @@ $main-font: 'HiraKakuProW6';
 .container{
     padding-top: 40px;
 
+    // セクションタイトルのスタイル
     .section_title {
         font-family: $main-font;
         font-size: 50px;
         margin-left: 20px;
     }
 
+    // サブタイトルと文章のスタイル
     .subtitle_and_sentence {
             width: 480px;
             display: inline-block;
@@ -40,7 +42,7 @@ $main-font: 'HiraKakuProW6';
 
         .nav {
             font-family: 'Railway';
-            font-size: 12px;
+            font-size: 11px;
             list-style: none;
             text-align: right;
             position: fixed;
@@ -59,7 +61,7 @@ $main-font: 'HiraKakuProW6';
                     color: #111;
                 }
 
-                #contact-nav {
+                .frame-nav {
                     font-weight: bold;
                     border: solid;
                     border-width: 1px;
@@ -109,7 +111,7 @@ $main-font: 'HiraKakuProW6';
 
         #vision {
             padding-top: 50px;
-            margin-bottom: 250px;
+            margin-bottom: 230px;
             text-align: center;
 
             h1 {
@@ -141,7 +143,8 @@ $main-font: 'HiraKakuProW6';
         }
 
         #about {
-            margin-bottom: 235px;
+            padding-top: 20px;
+            margin-bottom: 220px;
 
             .wrapper{
                 text-align: left;
@@ -185,7 +188,8 @@ $main-font: 'HiraKakuProW6';
         }
 
         #works {
-            margin-bottom: 180px;
+            padding-top: 20px;
+            margin-bottom: 160px;
 
             .wrapper {
                 background-image: url(/assets/images/works_bg.png);
@@ -207,7 +211,8 @@ $main-font: 'HiraKakuProW6';
         }
 
         #members {
-            margin-bottom: 250px;
+            padding-top: 20px;
+            margin-bottom: 230px;
 
             .wrapper {
                 background-image: url(/assets/images/members_bg.png);
@@ -279,7 +284,8 @@ $main-font: 'HiraKakuProW6';
         }
 
         #recruit {
-            margin-bottom: 250px;
+            padding-top: 20px;
+            margin-bottom: 230px;
 
             .section {
                 background-image: url(/assets/images/recruit_bg.png);
@@ -360,7 +366,8 @@ $main-font: 'HiraKakuProW6';
         }
 
         #company {
-            margin-bottom: 250px;
+            padding-top: 20px;
+            margin-bottom: 230px;
 
             dl {
                 margin-left: 40px;
@@ -395,6 +402,7 @@ $main-font: 'HiraKakuProW6';
         }
 
         #contact {
+            padding-top: 20px;
             margin-bottom: 250px;
             background-image: url(/assets/images/contact_bg.png);
             background-size: contain;
@@ -513,7 +521,7 @@ $main-font: 'HiraKakuProW6';
             text-align: left;    
             margin: 0px auto 0px auto;        
 
-            .nav-footer {
+            .nav-footer   {
                 list-style: none;
                 display: inline-block;
                 text-align: left;

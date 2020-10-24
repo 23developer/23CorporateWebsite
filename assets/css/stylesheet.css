@@ -40,7 +40,7 @@
 
 .container #header .nav {
   font-family: 'Railway';
-  font-size: 12px;
+  font-size: 11px;
   list-style: none;
   text-align: right;
   position: fixed;
@@ -61,7 +61,7 @@
   color: #111;
 }
 
-.container #header .nav li #contact-nav {
+.container #header .nav li .frame-nav {
   font-weight: bold;
   border: solid;
   border-width: 1px;
@@ -111,7 +111,7 @@
 
 .container #main #vision {
   padding-top: 50px;
-  margin-bottom: 250px;
+  margin-bottom: 230px;
   text-align: center;
 }
 
@@ -143,7 +143,8 @@
 }
 
 .container #main #about {
-  margin-bottom: 235px;
+  padding-top: 20px;
+  margin-bottom: 220px;
 }
 
 .container #main #about .wrapper {
@@ -188,7 +189,8 @@
 }
 
 .container #main #works {
-  margin-bottom: 180px;
+  padding-top: 20px;
+  margin-bottom: 160px;
 }
 
 .container #main #works .wrapper {
@@ -210,7 +212,8 @@
 }
 
 .container #main #members {
-  margin-bottom: 250px;
+  padding-top: 20px;
+  margin-bottom: 230px;
 }
 
 .container #main #members .wrapper {
@@ -282,7 +285,8 @@
 }
 
 .container #main #recruit {
-  margin-bottom: 250px;
+  padding-top: 20px;
+  margin-bottom: 230px;
 }
 
 .container #main #recruit .section {
@@ -366,7 +370,8 @@
 }
 
 .container #main #company {
-  margin-bottom: 250px;
+  padding-top: 20px;
+  margin-bottom: 230px;
 }
 
 .container #main #company dl {
@@ -401,6 +406,7 @@
 }
 
 .container #main #contact {
+  padding-top: 20px;
   margin-bottom: 250px;
   background-image: url(/assets/images/contact_bg.png);
   background-size: contain;
