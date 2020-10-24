@@ -23,7 +23,7 @@ body{
         width: 480px;
         display: inline-block;
         text-align: left;
-        margin-right: 8%;
+        margin-right: 0;
         
         .subtitle {
             display: inline-block;
@@ -156,16 +156,25 @@ body{
             margin-bottom: 220px;
 
             .wrapper{
+                display: inline-block;
                 text-align: left;
                 background-image: url(/assets/images/about_bg.png);
                 background-size: contain;
                 background-position: center;
                 background-repeat: no-repeat;
+                width: 100%;
 
-                img {
-                    height: 330px;
+                .img-bg{
+                    display: inline-block;
                     width: 354px;
-                    margin-left: auto;
+                    float: right;
+                    margin-right: 10%;
+
+                    img {
+                        height: 330px;
+                        width: 354px;
+
+                    }
                 }
             }
             #strongpoints-bg{

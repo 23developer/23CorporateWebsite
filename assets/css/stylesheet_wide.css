@@ -20,7 +20,7 @@ body {
   width: 480px;
   display: inline-block;
   text-align: left;
-  margin-right: 8%;
+  margin-right: 0;
 }
 
 .container .subtitle_and_sentence .subtitle {
@@ -157,17 +157,25 @@ body {
 }
 
 .container #main #about .wrapper {
+  display: inline-block;
   text-align: left;
   background-image: url(/assets/images/about_bg.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  width: 100%;
 }
 
-.container #main #about .wrapper img {
+.container #main #about .wrapper .img-bg {
+  display: inline-block;
+  width: 354px;
+  float: right;
+  margin-right: 10%;
+}
+
+.container #main #about .wrapper .img-bg img {
   height: 330px;
   width: 354px;
-  margin-left: auto;
 }
 
 .container #main #about #strongpoints-bg {
