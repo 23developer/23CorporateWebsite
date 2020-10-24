@@ -1,5 +1,13 @@
+body {
+  margin: 0 0;
+}
+
 .container {
   padding-top: 40px;
+}
+
+.container .mc_br {
+  display: none;
 }
 
 .container .section_title {
@@ -12,6 +20,7 @@
   width: 480px;
   display: inline-block;
   text-align: left;
+  margin-right: 8%;
 }
 
 .container .subtitle_and_sentence .subtitle {
@@ -158,25 +167,30 @@
 .container #main #about .wrapper img {
   height: 330px;
   width: 354px;
+  margin-left: auto;
 }
 
-.container #main #about #strong_points {
+.container #main #about #strongpoints-bg {
+  text-align: center;
+}
+
+.container #main #about #strongpoints-bg #strong_points {
   margin-top: 80px;
   display: inline-block;
   text-align: center;
 }
 
-.container #main #about #strong_points .block {
+.container #main #about #strongpoints-bg #strong_points .block {
   display: inline-block;
   margin-bottom: 15px;
 }
 
-.container #main #about #strong_points .block img {
+.container #main #about #strongpoints-bg #strong_points .block img {
   width: 36px;
   height: 54px;
 }
 
-.container #main #about #strong_points .block p {
+.container #main #about #strongpoints-bg #strong_points .block p {
   display: inline-block;
   font-family: "HiraKakuProW6";
   font-size: 14px;
@@ -415,8 +429,10 @@
 }
 
 .container #main #contact form ul {
-  width: 70%;
+  width: 550px;
   margin: 0 auto;
+  padding-right: 0;
+  padding-top: 60px;
 }
 
 .container #main #contact form ul li {
@@ -474,7 +490,7 @@
 
 .container #footer #sns-setting-up-message {
   float: right;
-  margin: 20px 40px 0px 0px;
+  margin: 20px 5% 0px 0px;
   color: #fff;
   font-family: 'Hiragino Kaku Gothic ProN';
   font-size: 12px;
@@ -669,4 +685,4 @@
             transform: translate(0);
   }
 }
-/*# sourceMappingURL=stylesheet.css.map */
+/*# sourceMappingURL=stylesheet_wide.css.map */

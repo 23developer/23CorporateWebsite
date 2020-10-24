@@ -70,4 +70,24 @@ $(document).ready(function(){
         }
     );
     
+
+    // formの内容をGoogleformへajax送信
+    // $('#ajax').on('click',function(){
+    //     // var name = 
+
+    //     $.ajax({
+    //         url: 'https://docs.google.com/forms/u/0/d/e/1FAIpQLScTYYAUyyrIaRm7lbWuf0p2ZtT6wxdRUiWQJ6Jfm-cgxPiPkA/formResponse',
+    //         type: 'POST',
+    //         data: {
+    //             "entry.698167586": "asd",
+    //             "entry.393581839": "a@a",
+    //             "entry.1369150218": "as"
+    //         },
+    //         dataType: "xml",    
+    //     }).done(function(data) {
+    //         alert("ok");
+    //     }).fail(function(XMLHttpRequest, textStatus, errorThorown) {
+    //         alert("error");
+    //     })
+    // });
 });

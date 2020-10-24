@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>23, Inc.|Creative Agency</title>
     <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
-    <link rel="stylesheet" href="/assets/css/stylesheet.css">
+    <link rel="stylesheet" href="/assets/css/stylesheet_small.css" media="screen and (max-width: 599px)">
+    <link rel="stylesheet" href="/assets/css/stylesheet_medium.css" media="screen and (min-width: 600px) and (max-width: 960px)">
+    <link rel="stylesheet" href="/assets/css/stylesheet_wide.css" media="screen and (min-width: 961px)">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
     <script src="/assets/js/script.js"></script>
 </head>
@@ -68,9 +71,11 @@
                             あらゆる産業、あらゆる事業フェーズに対応し、貢献します。
                         </p>
                     </div>
-                    <img src="/assets/images/about_about.png" alt="23の概要" id="vision-logo">
+                    <div class="img-bg">
+                        <img src="/assets/images/about_about.png" alt="23の概要" id="vision-img">
+                    </div>
                 </div>
-                <div>
+                <div id="strongpoints-bg">
                     <div id="strong_points">
                         <div class="block">
                             <img src="/assets/images/about_1.png" alt="1">
@@ -285,7 +290,7 @@
                 <div class="section">
                     <div class="subtitle_and_sentence">
                         <h2 class="subtitle">
-                            UNLOCKING THE YOUNG CREATIVITY<br>
+                            UNLOCKING THE<br class="mc_br"> YOUNG CREATIVITY<br>
                             若き想像力を解き放て
                         </h2>
                         <p class="bold_sentence">
@@ -351,24 +356,25 @@
             </div>
             <div id="contact">
                 <h1 class="section_title">CONTACT</h1>
-                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScTYYAUyyrIaRm7lbWuf0p2ZtT6wxdRUiWQJ6Jfm-cgxPiPkA/formResponse">
+                <form method="POST" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScTYYAUyyrIaRm7lbWuf0p2ZtT6wxdRUiWQJ6Jfm-cgxPiPkA/formResponse">
                 <ul>
                     <li>
                         <label for="name">お名前</label>
-                        <input id="name" type="text" name="name" required/>
+                        <input id="name" type="text" name="entry.698167586" required/>
                     </li>
                     <li>
                         <label for="email">メールアドレス</label>
-                        <input id="email" type="email" name="name" required/>
+                        <input id="email" type="email" name="entry.393581839" required/>
                     </li>
                     <li>
                         <label for="msg">お問い合わせ内容</label>
-                        <textarea id="msg" name="name" required></textarea>
+                        <textarea id="msg" name="entry.1369150218" required></textarea>
                     </li>
                 </ul>
                     <p>個人情報利用に同意のうえ、送信してください。</p>
-                    <button type="submit" name="button" value="送信">送信</button>
+                    <button type="submit" name="button" value="送信" id="ajax">送信</button>
                 </form>
+                <div class="result"></div>
             </div>
         </div>
         <div id="footer">
@@ -380,7 +386,7 @@
                 <ul>
                     <li><a href="#contact" class="sns-icon"><img src="/assets/images/footer_Twitter.png" alt="ツイッターへのリンク"></a></li>
                     <li><a href="#contact" class="sns-icon"><img src="/assets/images/footer_Facebook.png" alt="フェイスブックへのリンク"></a></li>
-                    <li><a href="#contact" class="sns-icon"><img src="/assets/images/footer_Instagram.png" alt="インスタグラムへのリンク"></a></li>
+                    <li><a href="/thx.html" class="sns-icon"><img src="/assets/images/footer_Instagram.png" alt="インスタグラムへのリンク"></a></li>
                 </ul>
                 <!---------------------------------------------------->
             </div>

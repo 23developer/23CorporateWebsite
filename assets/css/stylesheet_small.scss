@@ -1,7 +1,15 @@
 $main-font: 'HiraKakuProW6';
 
+body{
+    margin: 0 0;
+}
+
 .container{
     padding-top: 40px;
+
+    .mc_br{
+        display: none;
+    }
 
     // セクションタイトルのスタイル
     .section_title {
@@ -9,13 +17,14 @@ $main-font: 'HiraKakuProW6';
         font-size: 50px;
         margin-left: 20px;
     }
-
+    
     // サブタイトルと文章のスタイル
     .subtitle_and_sentence {
-            width: 480px;
-            display: inline-block;
-            text-align: left;
-
+        width: 480px;
+        display: inline-block;
+        text-align: left;
+        margin-right: 8%;
+        
         .subtitle {
             display: inline-block;
             font-family: $main-font;
@@ -156,32 +165,36 @@ $main-font: 'HiraKakuProW6';
                 img {
                     height: 330px;
                     width: 354px;
+                    margin-left: auto;
                 }
             }
-
-            #strong_points {
-                margin-top: 80px;
-                display: inline-block;
+            #strongpoints-bg{
                 text-align: center;
 
-                .block {
+                #strong_points {
+                    margin-top: 80px;
                     display: inline-block;
-                    margin-bottom: 15px;
+                    text-align: center;
 
-                    img {
-                        width: 36px;
-                        height: 54px;
-                    }
-
-                    p {
+                    .block {
                         display: inline-block;
-                        font-family: $main-font;
-                        font-size: 14px;
-                        padding: 10px 12px 10px 12px;
-                        margin: auto 20px auto 10px;
-                        background-color: #111;
-                        color: #fff;
-                        position: relative; top: -20px;
+                        margin-bottom: 15px;
+
+                        img {
+                            width: 36px;
+                            height: 54px;
+                        }
+
+                        p {
+                            display: inline-block;
+                            font-family: $main-font;
+                            font-size: 14px;
+                            padding: 10px 12px 10px 12px;
+                            margin: auto 20px auto 10px;
+                            background-color: #111;
+                            color: #fff;
+                            position: relative; top: -20px;
+                        }
                     }
                 }
             }
@@ -412,8 +425,10 @@ $main-font: 'HiraKakuProW6';
             form {
 
                 ul {
-                    width: 70%;
+                    width: 550px;
                     margin: 0 auto;
+                    padding-right: 0;
+                    padding-top: 60px;
 
                     li {
                         list-style: none;
@@ -459,7 +474,6 @@ $main-font: 'HiraKakuProW6';
                     font-size: 14px;
                     padding: 3px 25px;
                     border-radius: 15px;
-
                 }
             }
         }
@@ -474,7 +488,7 @@ $main-font: 'HiraKakuProW6';
 
         #sns-setting-up-message {
             float: right;
-            margin: 20px 40px 0px 0px;
+            margin: 20px 5% 0px 0px;
             color: #fff;
             font-family: 'Hiragino Kaku Gothic ProN';
             font-size: 12px;
@@ -584,10 +598,10 @@ $main-font: 'HiraKakuProW6';
 }
 
 
-//アニメーション設定
+// アニメーション設定
 
-//スクロールフェードイン
-.scrollanime {opacity: 0;} //一瞬表示されるのを防ぐ
+// スクロールフェードイン
+.scrollanime {opacity: 0;} // 一瞬表示されるのを防ぐ
 .fadeInDown {
     animation-name: fadeInDown;
     animation-duration: 1s;
@@ -602,14 +616,14 @@ $main-font: 'HiraKakuProW6';
     transform: translate(0);
     }
 }
-//上下の動きを指定
+// 上下の動きを指定
 .updown {transform: translateY(-100px);}
 .downup {transform: translateY(100px);}
-//左右の動きを指定
+// 左右の動きを指定
 .slide-right {transform: translateX(100px);}
 .slide-left {transform: translateX(-100px);}
 
-//スローフェードイン
+// スローフェードイン
 .slow-fadein {opacity: 0;}
 .slowFadein {
     animation-name: slowFadein;

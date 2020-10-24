@@ -5,21 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>23, Inc.|Creative Agency</title>
     <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
-    <link rel="stylesheet" href="/assets/css/stylesheet.css">
+    <link rel="stylesheet" href="/assets/css/stylesheet_small.css" media="screen and (max-width: 599px)">
+    <link rel="stylesheet" href="/assets/css/stylesheet_medium.css" media="screen and (min-width: 600px) and (max-width: 960px)">
+    <link rel="stylesheet" href="/assets/css/stylesheet_wide.css" media="screen and (min-width: 961px)">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
     <script src="/assets/js/script.js"></script>
 </head>
-<body>
+<body id="thx_body">
     <div class="container">
         <div id="header">
             <ul class="nav">
-                <li><a href="#vision">VISION</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#works">WORKS</a></li>
-                <li><a href="#members">MEMBERS</a></li>
-                <li><a href="#recruit">RECRUIT</a></li>
-                <li><a href="#company">COMPANY</a></li>
-                <li><a href="#contact" class="frame">CONTACT</a></li>
+                <li><a href="#vision" class="not-frame-nav">VISION</a></li>
+                <li><a href="#about" class="not-frame-nav">ABOUT</a></li>
+                <li><a href="#works" class="not-frame-nav">WORKS</a></li>
+                <li><a href="#members" class="not-frame-nav">MEMBERS</a></li>
+                <li><a href="#recruit" class="not-frame-nav">RECRUIT</a></li>
+                <li><a href="#company" class="not-frame-nav">COMPANY</a></li>
+                <li><a href="#contact" class="frame-nav">CONTACT</a></li>
             </ul>
         </div>
         <div id="thx">
@@ -28,29 +32,32 @@
             <a href="/index.html"><img src="/assets/images/vision_logo.png" alt="23ロゴ"></a>
         </div>
         <div id="footer">
+            <p id="sns-setting-up-message">Sorry, we're setting up.</p>
             <div class="menu">
-                <img src="/assets/images/footer_logo.png" alt="フッターロゴ" id="footer_logo">
+                <a href="#"><img src="/assets/images/footer_logo.png" alt="フッターロゴ" id="footer_logo"></a>
                 <p>©︎2020 23 Inc. All rights reserved</p>
+                <!-- 各種SNSアカウントができたらリンクを差し替えてください。 -->
                 <ul>
-                    <li><a href="#" class="sns"><img src="/assets/images/footer_Twitter.png" alt="ツイッターへのリンク"></a></li>
-                    <li><a href="#" class="sns"><img src="/assets/images/footer_Facebook.png" alt="フェイスブックへのリンク"></a></li>
-                    <li><a href="#" class="sns"><img src="/assets/images/footer_Instagram.png" alt="インスタグラムへのリンク"></a></li>
+                    <li><a href="#contact" class="sns-icon"><img src="/assets/images/footer_Twitter.png" alt="ツイッターへのリンク"></a></li>
+                    <li><a href="#contact" class="sns-icon"><img src="/assets/images/footer_Facebook.png" alt="フェイスブックへのリンク"></a></li>
+                    <li><a href="/thx.html" class="sns-icon"><img src="/assets/images/footer_Instagram.png" alt="インスタグラムへのリンク"></a></li>
                 </ul>
+                <!---------------------------------------------------->
             </div>
             <div class="nav_bg">
-                <ul class="nav">
+                <ul class="nav-footer">
 
                     <li><a href="#vision">VISION</a></li>
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#works">WORKS</a></li>
                     <li><a href="#members">MEMBERS</a></li>
                 </ul>
-                <ul class="nav">                    
+                <ul class="nav-footer">                    
                     <li><a href="#recruit">RECRUIT</a></li>
                     <li><a href="#company">COMPANY</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
-            </div>>
+            </div>
         </div>
     </div>
 </body>
