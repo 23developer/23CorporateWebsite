@@ -472,6 +472,15 @@
   text-align: left;
 }
 
+.container #footer #sns-setting-up-message {
+  float: right;
+  margin: 20px 40px 0px 0px;
+  color: #fff;
+  font-family: 'Hiragino Kaku Gothic ProN';
+  font-size: 12px;
+  font-weight: bold;
+}
+
 .container #footer .menu {
   display: block;
   border-bottom: solid;

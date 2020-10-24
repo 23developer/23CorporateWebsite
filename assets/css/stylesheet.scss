@@ -472,6 +472,15 @@ $main-font: 'HiraKakuProW6';
         background-color: #111;
         text-align: left;
 
+        #sns-setting-up-message {
+            float: right;
+            margin: 20px 40px 0px 0px;
+            color: #fff;
+            font-family: 'Hiragino Kaku Gothic ProN';
+            font-size: 12px;
+            font-weight: bold;
+        }
+
         .menu{
             display: block;
             border-bottom: solid;
@@ -479,6 +488,7 @@ $main-font: 'HiraKakuProW6';
             border-width: 1px;
             width: 80%;
             margin: 50px auto 0px auto;
+
 
             #footer_logo {
                 display: inline-block;
@@ -519,9 +529,9 @@ $main-font: 'HiraKakuProW6';
             display: block;
             width: 80%;
             text-align: left;    
-            margin: 0px auto 0px auto;        
+            margin: 0px auto 0px auto; 
 
-            .nav-footer   {
+            .nav-footer {
                 list-style: none;
                 display: inline-block;
                 text-align: left;
@@ -572,7 +582,6 @@ $main-font: 'HiraKakuProW6';
         margin-top: 80px;
     }
 }
-
 
 
 //アニメーション設定
