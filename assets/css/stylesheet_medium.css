@@ -243,7 +243,20 @@ body {
   display: inline-block;
   vertical-align: top;
   text-align: center;
-  margin: 0px 13px 0px 13px;
+  margin: 0px 55px 0px 55px;
+}
+
+.container #main #members .wrapper .see_more_button {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #111;
+  color: #fff;
+  font-family: 'Hira Kaku Gothic ProN';
+  font-size: 16px;
+  padding: 6px 25px 5px 25px;
 }
 
 .container #main #members .wrapper .member {
@@ -301,6 +314,10 @@ body {
   font-size: 8px;
   color: gray;
   margin-top: 0px;
+}
+
+.container #main #members .wrapper .hide_contents {
+  display: none;
 }
 
 .container #main #recruit {
@@ -571,6 +588,54 @@ body {
   text-decoration: none;
 }
 
+#thx_header {
+  height: 100px;
+  width: 100%;
+  padding-bottom: 150px;
+}
+
+#thx_header .nav {
+  font-family: 'Railway';
+  font-size: 8px;
+  list-style: none;
+  text-align: right;
+  position: fixed;
+  width: 93%;
+  top: 0;
+  z-index: 10000;
+}
+
+#thx_header .nav li {
+  display: inline-block;
+}
+
+#thx_header .nav li a {
+  display: block;
+  padding: 6px 8px 6px 9px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #111;
+}
+
+#thx_header .nav li .frame-nav {
+  font-weight: bold;
+  border: solid;
+  border-width: 1px;
+  border-radius: 18px;
+}
+
+.drawer-menu {
+  display: none;
+}
+
+.sr-only {
+  display: none;
+}
+
+.drawer-toggle {
+  display: none;
+}
+
 #thx {
   text-align: center;
   height: 550px;
@@ -580,7 +645,7 @@ body {
   font-family: "HiraKakuProW6";
   font-size: 22px;
   font-weight: bold;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 #thx #thx-en {

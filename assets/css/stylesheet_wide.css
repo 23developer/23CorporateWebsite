@@ -305,6 +305,10 @@ body {
   margin-top: 0px;
 }
 
+.container #main #members .wrapper .wide_none {
+  display: none;
+}
+
 .container #main #recruit {
   padding-top: 20px;
   margin-bottom: 230px;
@@ -576,6 +580,33 @@ body {
   font-size: 10px;
   color: #fff;
   text-decoration: none;
+}
+
+.drawer-menu {
+  display: none;
+}
+
+.sr-only {
+  display: none;
+}
+
+.drawer-toggle {
+  display: none;
+}
+
+@media (min-width: 1025px) {
+  .drawer-hamburger {
+    display: none;
+  }
+  .drawer--left .drawer-nav {
+    left: 0;
+  }
+  .drawer-nav {
+    position: relative;
+  }
+  .drawer-nav .drawer-menu li {
+    display: inline-block;
+  }
 }
 
 #thx {

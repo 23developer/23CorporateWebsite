@@ -11,6 +11,10 @@ body {
   display: none;
 }
 
+.hide_contents {
+  display: none;
+}
+
 .container {
   padding-top: 40px;
 }
@@ -242,6 +246,19 @@ body {
   margin: 0px 13px 0px 13px;
 }
 
+.container #main #members .wrapper .see_more_button {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #111;
+  color: #fff;
+  font-family: 'Hira Kaku Gothic ProN';
+  font-size: 12px;
+  padding: 4px 20px 3px 20px;
+}
+
 .container #main #members .wrapper .member {
   display: inline-block;
   vertical-align: top;
@@ -297,6 +314,10 @@ body {
   font-size: 3px;
   color: gray;
   margin-top: 0px;
+}
+
+.container #main #members .wrapper .hide_contents {
+  display: none;
 }
 
 .container #main #recruit {
@@ -574,26 +595,26 @@ body {
 
 #thx {
   text-align: center;
-  height: 500px;
+  height: 420px;
 }
 
 #thx #thx-ja {
   font-family: "HiraKakuProW6";
-  font-size: 24px;
+  font-size: 16px;
   font-weight: bold;
   margin-top: 120px;
 }
 
 #thx #thx-en {
   font-family: 'Hiragino Kaku Gothic ProN';
-  font-size: 16px;
+  font-size: 12px;
   color: gray;
   margin-top: 0;
 }
 
 #thx img {
-  height: 50px;
-  width: 160px;
+  height: 40px;
+  width: 128px;
   margin-top: 80px;
 }
 
