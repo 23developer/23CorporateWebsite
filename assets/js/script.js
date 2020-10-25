@@ -72,22 +72,17 @@ $(document).ready(function(){
             var name = $("#name").val();
             var email = $("#email").val();
             var msg = $("#msg").val();
-            window.location.href="./thx.html";
 
             $.ajax({
                 url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLScTYYAUyyrIaRm7lbWuf0p2ZtT6wxdRUiWQJ6Jfm-cgxPiPkA/formResponse",
                 data: {"entry.698167586": name, "entry.393581839": email, "entry.1369150218": msg},
                 type: "POST",
-                dtaatype: "xml",
-                statuscode: {
-                    done: function() {
-                        window.location.href="./thx.html";
-                    },
-                    fail: function() {
-                        window.location.href="./thx.html";
-                    }
-                }
-            });
+                dtaatype: "xml"
+            })
+                .always((data) => {
+                window.location.href="./thx.html";
+            })
+
             event.preventDefault();
         });
 
