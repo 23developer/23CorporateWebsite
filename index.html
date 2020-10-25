@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="/assets/css/stylesheet_small.css" media="screen and (max-width: 599px)">
     <link rel="stylesheet" href="/assets/css/stylesheet_medium.css" media="screen and (min-width: 600px) and (max-width: 960px)">
     <link rel="stylesheet" href="/assets/css/stylesheet_wide.css" media="screen and (min-width: 961px)">
+   <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- ajax -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
     <script src="/assets/js/script.js"></script>
     <!-- drawer.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/css/drawer.min.css" media="screen and (max-width: 599px)">
@@ -19,6 +20,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js" media="screen and (max-width: 599px)"></script>
     <!-- drawer.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/js/drawer.min.js" media="screen and (max-width: 599px)"></script>
+    <!-- jqueryで colorcode使用 -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 </head>
 <body class="drawer drawer--right">
     <div id="header_small" role="banner">
@@ -44,13 +47,13 @@
     <div class="container"  rile="main">       
         <div id="header">
             <ul class="nav small_none">
-                <li><a href="#vision" class="not-frame-nav">VISION</a></li>
-                <li><a href="#about" class="not-frame-nav">ABOUT</a></li>
-                <li><a href="#works" class="not-frame-nav">WORKS</a></li>
-                <li><a href="#members" class="not-frame-nav">MEMBERS</a></li>
-                <li><a href="#recruit" class="not-frame-nav">RECRUIT</a></li>
-                <li><a href="#company" class="not-frame-nav">COMPANY</a></li>
-                <li><a href="#contact" class="frame-nav">CONTACT</a></li>
+                <li><a href="#vision" class="hover-contents not-frame-nav">VISION</a></li>
+                <li><a href="#about" class="hover-contents not-frame-nav">ABOUT</a></li>
+                <li><a href="#works" class="hover-contents not-frame-nav">WORKS</a></li>
+                <li><a href="#members" class="hover-contents not-frame-nav">MEMBERS</a></li>
+                <li><a href="#recruit" class="hover-contents not-frame-nav">RECRUIT</a></li>
+                <li><a href="#company" class="hover-contents not-frame-nav">COMPANY</a></li>
+                <li><a href="#contact" class="hover-contents frame-nav">CONTACT</a></li>
             </ul>
             <div class="wrapper">
                 <div id="header_logo1">
@@ -387,24 +390,26 @@
             </div>
             <div id="contact">
                 <h1 class="section_title">CONTACT</h1>
-                <form id="otoiawase" method="POST">
-                    <ul>
-                        <li>
-                            <label for="name">お名前</label>
-                            <input id="name" type="text" name="entry.698167586" required/>
-                        </li>
-                        <li>
-                            <label for="email">メールアドレス</label>
-                            <input id="email" type="email" name="entry.393581839" required/>
-                        </li>
-                        <li>
-                            <label for="msg">お問い合わせ内容</label>
-                            <textarea id="msg" name="entry.1369150218" required></textarea>
-                        </li>
-                    </ul>
-                    <p>個人情報利用に同意のうえ、送信してください。</p>
-                    <button type="submit" name="button" value="送信" id="ajax">送信</button>
-                </form>
+                <div id="googleforme">
+                    <form>
+                        <ul>
+                            <li>
+                                <label for="name">お名前</label>
+                                <input id="name" type="text" name="entry.698167586" required/>
+                            </li>
+                            <li>
+                                <label for="email">メールアドレス</label>
+                                <input id="email" type="email" name="entry.393581839" required/>
+                            </li>
+                            <li>
+                                <label for="msg">お問い合わせ内容</label>
+                                <textarea id="msg" name="entry.1369150218" required></textarea>
+                            </li>
+                        </ul>
+                        <p>個人情報利用に同意のうえ、送信してください。</p>
+                        <button type="submit" name="button" value="送信" id="ajax">送信</button>
+                    </form>
+                </div>
                 <div class="result"></div>
             </div>
         </div>
