@@ -4,41 +4,41 @@ body{
     margin: 0 0;
 }
 
+.small_none {
+    display: none;
+}
+
 .container{
     padding-top: 40px;
-
-    .mc_br{
-        display: none;
-    }
 
     // セクションタイトルのスタイル
     .section_title {
         font-family: $main-font;
-        font-size: 50px;
+        font-size: 25px;
         margin-left: 20px;
     }
     
     // サブタイトルと文章のスタイル
     .subtitle_and_sentence {
-        width: 480px;
+        // width: 300px;
         display: inline-block;
         text-align: left;
-        margin-right: 8%;
         
         .subtitle {
             display: inline-block;
             font-family: $main-font;
-            font-size: 22px;
+            font-size: 12px;
             padding: 14px 18px 14px 18px;
             background-color: #111;
             color: #fff;
+            margin-right: 100px;
         }
 
         .bold_sentence {
             display: inline-block;
-            padding-left: 30px;
+            padding-left: 5px;
             font-family: $main-font;
-            font-size: 14px;
+            font-size: 4px;
             font-weight: bold;
             line-height: 2;
         }
@@ -51,8 +51,9 @@ body{
 
         .nav {
             font-family: 'Railway';
-            font-size: 11px;
+            font-size: 10px;
             list-style: none;
+            padding-left: 0;
             text-align: right;
             position: fixed;
             width: 93%;
@@ -80,57 +81,58 @@ body{
         }
 
         .wrapper{
-            display: flex;
-            justify-content: flex-end;
 
             #header_logo1 {
                 margin-right: auto;
-                padding-bottom: 100px;
+                padding-bottom: 30px;
 
                 img {
-                width: 350px;
-                height: 550px;
+                width: 210px;
+                height: 330px;
                 }
             }
 
             #header_logo2 {
-                margin-top: 500px;
-                margin-right: 20px;
+                margin-top: 20px;
+                margin-right: 5px;
+                float: right;
+
 
                 p {
+                    width: 160px;
+                    text-align: center;
+
                     font: {
                         family: 'Railway';
-                        size: 18px;
-                        weight: 500px;
+                        size: 10px;
                     }
                 }
 
                 img {
-                    width: 270px;
-                    height: 180px;
+                    width: 160px;
+                    height: 105px;
                 }
             }
         }
     }
 
     #main {
-        max-width: 1160px;
         margin-left: auto;
         margin-right: auto;
 
         #vision {
-            padding-top: 50px;
-            margin-bottom: 230px;
+            padding-top: 170px;
+            margin-bottom: 180px;
             text-align: center;
 
             h1 {
                 display: inline-block;
-                padding: 8px 30px 8px 30px;
-                margin-bottom: 0px;
+                padding: 4px 10px;
+                margin-bottom: 20px;
                 text-align: center;
                 background-color: #111;
                 color: #fff;
-                font-size: 40px;
+                font-size: 20px;
                 font-family: $main-font;
             }
 
@@ -139,21 +141,21 @@ body{
                 text-align: left;
                 font-family: $main-font;
                 font-weight: bold;
-                font-size: 16px;
+                font-size: 8px;
                 line-height: 3;
             }
 
             img {
                 display: block;
                 margin: 40px auto 0px auto;
-                height: 50px;
-                width: 160px;
+                height: 30px;
+                width: 96px;
             }
         }
 
         #about {
             padding-top: 20px;
-            margin-bottom: 220px;
+            margin-bottom: 170px;
 
             .wrapper{
                 text-align: left;
@@ -162,17 +164,22 @@ body{
                 background-position: center;
                 background-repeat: no-repeat;
 
-                img {
-                    height: 330px;
-                    width: 354px;
-                    margin-left: auto;
+                .img-bg{
+                    text-align: center;
+                    padding-top: 40px;
+
+                    img {
+                        height: 240px;
+                        width: 250px;
+                    }
                 }
             }
+
             #strongpoints-bg{
                 text-align: center;
 
                 #strong_points {
-                    margin-top: 80px;
+                    margin-top: 30px;
                     display: inline-block;
                     text-align: center;
 
@@ -181,19 +188,19 @@ body{
                         margin-bottom: 15px;
 
                         img {
-                            width: 36px;
-                            height: 54px;
+                            width: 18px;
+                            height: 27px;
                         }
 
                         p {
                             display: inline-block;
                             font-family: $main-font;
-                            font-size: 14px;
-                            padding: 10px 12px 10px 12px;
+                            font-size: 8px;
+                            padding: 5px 6px 5px 6px;
                             margin: auto 20px auto 10px;
                             background-color: #111;
                             color: #fff;
-                            position: relative; top: -20px;
+                            position: relative; top: -11px;
                         }
                     }
                 }
@@ -202,7 +209,7 @@ body{
 
         #works {
             padding-top: 20px;
-            margin-bottom: 160px;
+            margin-bottom: 50px;
 
             .wrapper {
                 background-image: url(/assets/images/works_bg.png);
@@ -216,16 +223,16 @@ body{
 
                 img {
                     display: inline-block;
-                    width: 250px;
-                    height: 85px;
-                    margin: 0px 10px 0px 30px;
+                    width: 150px;
+                    height: 51px;
+                    margin: 0px 10px 20px 30px;
                 }
             }
         }
 
         #members {
             padding-top: 20px;
-            margin-bottom: 230px;
+            margin-bottom: 180px;
 
             .wrapper {
                 background-image: url(/assets/images/members_bg.png);
@@ -241,9 +248,9 @@ body{
                     display: inline-block;
                     vertical-align: top;
                     text-align: left;
-                    width: 220px;
-                    height: 510px;
-                    margin: 5px 30px 0px 30px;
+                    width: 200px;
+                    height: 460px;
+                    margin: 5px 30px 15px 30px;
 
                     img{
                         width: 100%;
@@ -252,35 +259,35 @@ body{
                     .name {
                         display: inline-block;
                         font-family: $main-font;
-                        font-size: 18px;
+                        font-size: 14px;
                         font-weight: bold;
                         margin: 10px auto 0px 0px;
                     }
 
                     .name_eng {
                         font-family: 'Hiragino Kaku Gothic ProN';
-                        font-size: 12px;
+                        font-size: 8px;
                         color: gray;
                         margin: 0px 0px 0px 0px;
                     }
 
                     .position {
                         font-family: $main-font;
-                        font-size: 12px;
+                        font-size: 6px;
                         font-weight: bold;
                         margin: 0px 0px 0px 0px;
                     }
 
                     .hashtag {
                         font-family: $main-font;
-                        font-size: 10px;
+                        font-size: 5px;
                         color: #505050;
                         margin: 0px 0px 0px 0px;
                     }
 
                     .introduction {
                         font-family: 'Hiragino Kaku Gothic ProN';
-                        font-size: 8px;
+                        font-size: 3px;
                         color: gray;
                         margin-bottom: 0px;
                     }
@@ -288,7 +295,7 @@ body{
                     .school {
                         display: inline-block;
                         font-family: 'Hiragino Kaku Gothic ProN';
-                        font-size: 8px;
+                        font-size: 3px;
                         color: gray;
                         margin-top: 0px;
                     }
@@ -298,7 +305,7 @@ body{
 
         #recruit {
             padding-top: 20px;
-            margin-bottom: 230px;
+            margin-bottom: 180px;
 
             .section {
                 background-image: url(/assets/images/recruit_bg.png);
@@ -306,17 +313,14 @@ body{
                 background-position: center;
                 background-repeat: no-repeat;
                 
-                h2 {
-                    width: 100%;
-                }
-                
                 .hyou {
                     text-align: center;
-                    margin-top: 70px;
+                    margin-top: 40px;
 
                     h3 {
                         font-family: $main-font;
                         margin-bottom: 0;
+                        font-size: 16px;
                     }
 
                     ul {
@@ -327,30 +331,29 @@ body{
                         display: inline-block;
 
                         li {                            
-                            width: 200px;
+                            width: 160px;
                             height: 100px;
                             display: inline-block;
 
                             .jobs{                                
                                 font-family: $main-font;
                                 font-weight: bold;
-                                font-size: 18px;
+                                font-size: 14px;
                                 margin-top: 10px;
                                 margin-bottom: 0;
-                                height: 54px;
+                                height: 45px;
                             }
 
                             .ichigyou_jobs {
-                                position: relative; top: 15px; //垂直中央
+                                position: relative; top: 5px; //垂直中央
                             }
 
                             .explain {
                                 display: inline-block;
                                 font-family: 'Hiragino Kaku Gothic ProN';
-                                font-size: 14px;
+                                font-size: 8px;
                                 color: #505050;
                                 line-height: 1.2;
-                                margin-top: 8px;
                                 vertical-align: bottom;
                             }
 
@@ -359,18 +362,18 @@ body{
                             }
 
                             .nigyou_explain {
-                                position: relative; top: 32px; //垂直中央
+                                position: relative; top: 20px; //垂直中央
                             }
                         }
                     }
 
                     #entry_button {
                         font-family: $main-font;
-                        font-size: 24px;
+                        font-size: 16px;
                         display: inline-block;
                         text-decoration: none;
                         margin-top: 50px;
-                        padding: 0px 180px 0px 180px;
+                        padding: 0px 60px 0px 60px;
                         background-color: #111;
                         color: #fff;
                     }
@@ -380,25 +383,25 @@ body{
 
         #company {
             padding-top: 20px;
-            margin-bottom: 230px;
+            margin-bottom: 180px;
+            background-image: url(/assets/images/company_bg.png);
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
 
             dl {
                 margin-left: 40px;
-                background-image: url(/assets/images/company_bg.png);
-                background-size: contain;
-                background-position: center;
-                background-repeat: no-repeat;
                 font-family: $main-font;
                 font-weight: bold;
-                font-size: 16px;
+                font-size: 1px;
                 line-height: 3;
-                height: 250px;
+                height: 150px;
 
                 dt {
                     float: left;
                     clear: left;
                     margin-right: 0px;
-                    width: 100px;
+                    width: 50px;
                 }
 
                 dd {
@@ -409,14 +412,14 @@ body{
             #map {
                 display: block;
                 width: 80%;
-                height: 400px;
+                height: 250px;
                 margin: 50px auto 0px auto;
             }
         }
 
         #contact {
             padding-top: 20px;
-            margin-bottom: 250px;
+            margin-bottom: 200px;
             background-image: url(/assets/images/contact_bg.png);
             background-size: contain;
             background-position: center;
@@ -425,10 +428,10 @@ body{
             form {
 
                 ul {
-                    width: 550px;
+                    width: 180px;
                     margin: 0 auto;
-                    padding-right: 0;
                     padding-top: 60px;
+                    padding-left: 0px;
 
                     li {
                         list-style: none;
@@ -436,21 +439,22 @@ body{
 
                         label {
                             font-family: $main-font;
-                            font-size: 16px;
+                            font-size: 8px;
                             font-weight: bold;
-                            margin-right: 20px;
                             width: 160px;
                             float: left;
                         }
 
                         input {
-                            width: 320px;
-                            height: 20px;
+                            width: 180px;
+                            height: 12px;
+                            font-size: 6px;
                         }
 
                         textarea{
-                            width: 320px;
-                            height: 130px;
+                            width: 180px;
+                            height: 70px;
+                            font-size: 6px;
                         }
                     }
                 }
@@ -458,7 +462,7 @@ body{
                 p {
                     text-align: center;
                     font-family: 'Hiragino Kaku Gothic ProN';
-                    font-size: 12px;
+                    font-size: 8px;
                     color: gray;
                 }
 
@@ -471,8 +475,8 @@ body{
                     background-color: #111;
                     color: #fff;
                     font-family: 'Hira Kaku Gothic ProN';
-                    font-size: 14px;
-                    padding: 3px 25px;
+                    font-size: 10px;
+                    padding: 3px 15px 2px 15px;
                     border-radius: 15px;
                 }
             }
@@ -482,7 +486,7 @@ body{
     #footer {
         display: inline-block;
         width: 100%;
-        height: 250px;
+        height: 180px;
         background-color: #111;
         text-align: left;
 
@@ -491,7 +495,7 @@ body{
             margin: 20px 5% 0px 0px;
             color: #fff;
             font-family: 'Hiragino Kaku Gothic ProN';
-            font-size: 12px;
+            font-size: 10px;
             font-weight: bold;
         }
 
@@ -501,22 +505,22 @@ body{
             border-color: #fff;
             border-width: 1px;
             width: 80%;
-            margin: 50px auto 0px auto;
+            margin: 30px auto 0px auto;
 
 
             #footer_logo {
                 display: inline-block;
-                width: 100px;
-                height: 33px;
-                margin: 0px 30px 0px 0px
+                width: 66px;
+                height: 22px;
+                margin: 0px 10px 0px 0px
             }
 
             p {
                 display: inline-block;
                 font-family: 'Arial';
-                font-size: 12px;
+                font-size: 10px;
                 color: #fff;
-                position: relative; top: -10px;
+                position: relative; top: -8px;
             }
             
             ul {
@@ -524,14 +528,15 @@ body{
                 list-style: none;
                 text-align: right;
                 position: relative; top: -10px;
+                padding-left: 0;
     
                 li {
                     display: inline-block;
                     text-align: right;
 
                     img {
-                        width: 25px;
-                        height: 25px;
+                        width: 15px;
+                        height: 15px;
                         margin-left: 5px;
                         margin-bottom: 8px; 
                     }
@@ -551,16 +556,18 @@ body{
                 text-align: left;
                 padding-left: 0px;
                 vertical-align: top;
-                margin-right: 40px;
+                margin-right: 10px;
                 margin-left: 5px;
                 margin-top: 10px;
 
                 li {
                     text-decoration: none;
+                    font-size: 10px;
+                    font-family: 'Arial';
+                    margin-bottom: 8px;
+                    font-weight: lighter;
                     
                     a {
-                        font-family: 'Arial';
-                        font-size: 10px;
                         color: #fff;
                         text-decoration: none;
                     }

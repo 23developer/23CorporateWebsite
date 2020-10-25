@@ -48,7 +48,7 @@ body{
         height: 100%;
         width: 100%;
         padding-bottom: 150px;
-
+        
         .nav {
             font-family: 'Railway';
             font-size: 8px;
@@ -62,7 +62,7 @@ body{
 
             li {
                 display: inline-block;
-
+                
                 a {
                     display: block;
                     padding: 6px 8px 6px 9px;
@@ -70,7 +70,7 @@ body{
                     letter-spacing: 1px;
                     color: #111;
                 }
-
+                
                 .frame-nav {
                     font-weight: bold;
                     border: solid;
