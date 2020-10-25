@@ -15,6 +15,10 @@ body {
   display: none;
 }
 
+a {
+  outline: none;
+}
+
 .container {
   padding-top: 40px;
 }
