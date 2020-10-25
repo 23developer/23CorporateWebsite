@@ -72,6 +72,7 @@ $(document).ready(function(){
             var name = $("#name").val();
             var email = $("#email").val();
             var msg = $("#msg").val();
+            window.location.href="./thx.html";
 
             $.ajax({
                 url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLScTYYAUyyrIaRm7lbWuf0p2ZtT6wxdRUiWQJ6Jfm-cgxPiPkA/formResponse",
@@ -79,13 +80,11 @@ $(document).ready(function(){
                 type: "POST",
                 dtaatype: "xml",
                 statuscode: {
-                    0: function() {
-                        alert("送信が完了しました。");
-                        window.location().href="https://google.com";
+                    done: function() {
+                        window.location.href="./thx.html";
                     },
-                    200: function() {
-                        alert("error");
-                        window.location().href="https://google.com";
+                    fail: function() {
+                        window.location.href="./thx.html";
                     }
                 }
             });
