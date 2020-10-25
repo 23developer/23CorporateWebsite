@@ -71,6 +71,13 @@ $(document).ready(function(){
     );
     
 
+    // ドロワーメニュー有効化
+    $('.drawer').drawer();
+    $('.drawer-menu li').on('click', function() {
+        $('.drawer').drawer('close');
+    });
+
+
     // formの内容をGoogleformへajax送信
     // $('#ajax').on('click',function(){
     //     // var name = 

@@ -1,5 +1,12 @@
 $main-font: 'HiraKakuProW6';
 
+.drawer-menu{
+    img{
+        width: 100px;
+        height: 30px;
+    }
+}
+
 body{
     margin: 0 0;
 }
@@ -576,6 +583,11 @@ body{
         }
     }
 }   
+
+
+// ドロワーメニュー
+
+
 
 
 // thx.html
