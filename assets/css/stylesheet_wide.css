@@ -616,16 +616,51 @@ a {
   }
 }
 
+#thx_header {
+  width: 100%;
+  padding-bottom: 0px;
+}
+
+#thx_header .nav {
+  font-family: 'Railway';
+  font-size: 8px;
+  list-style: none;
+  text-align: right;
+  position: fixed;
+  width: 93%;
+  top: 0;
+  z-index: 10000;
+}
+
+#thx_header .nav li {
+  display: inline-block;
+}
+
+#thx_header .nav li a {
+  display: block;
+  padding: 6px 8px 6px 9px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #111;
+}
+
+#thx_header .nav li .frame-nav {
+  font-weight: bold;
+  border: solid;
+  border-width: 1px;
+  border-radius: 18px;
+}
+
 #thx {
   text-align: center;
-  height: 500px;
+  height: 680px;
 }
 
 #thx #thx-ja {
   font-family: "HiraKakuProW6";
   font-size: 24px;
   font-weight: bold;
-  margin-top: 120px;
+  margin-top: 400px;
 }
 
 #thx #thx-en {

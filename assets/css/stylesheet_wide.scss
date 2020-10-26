@@ -618,15 +618,51 @@ a {
 }
 
 // thx.html
+// thx.html
+#thx_header{
+    width: 100%;
+    padding-bottom: 0px;
+    
+    .nav {
+        font-family: 'Railway';
+        font-size: 8px;
+        list-style: none;
+        text-align: right;
+        position: fixed;
+        width: 93%;
+        top: 0;
+        z-index: 10000;
+        
+
+        li {
+            display: inline-block;
+            
+            a {
+                display: block;
+                padding: 6px 8px 6px 9px;
+                text-decoration: none;
+                letter-spacing: 1px;
+                color: #111;
+            }
+            
+            .frame-nav {
+                font-weight: bold;
+                border: solid;
+                border-width: 1px;
+                border-radius: 18px;
+            }
+        }
+    }
+}
 #thx {
     text-align: center;
-    height: 500px;
+    height: 680px;
 
     #thx-ja {
         font-family: $main-font;
         font-size: 24px;
         font-weight: bold;
-        margin-top: 120px;
+        margin-top: 400px;
     }
 
     #thx-en {

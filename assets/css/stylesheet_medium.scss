@@ -633,17 +633,6 @@ a {
         }
     }
 }
-
-.drawer-menu{
-    display: none;
-}
-.sr-only{
-    display: none;
-}
-.drawer-toggle{
-    display: none;
-}
-
 #thx {
     text-align: center;
     height: 550px;
@@ -668,6 +657,17 @@ a {
         margin-top: 80px;
     }
 }
+
+.drawer-menu{
+    display: none;
+}
+.sr-only{
+    display: none;
+}
+.drawer-toggle{
+    display: none;
+}
+
 
 #footer{
     vertical-align: bottom;
