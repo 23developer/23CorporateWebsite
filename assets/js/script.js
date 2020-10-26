@@ -70,12 +70,12 @@ $(document).ready(function(){
     
     // SNSアイコンにホバー時、準備中メッセージ表示
     $('#sns-setting-up-message').hide()
-    $('.sns-icon').hover(
-        function() {
-            $('#sns-setting-up-message').show();
-        }, function() {
-            $('#sns-setting-up-message').hide();
-    });
+    // $('.sns-icon').hover(
+    //     function() {
+    //         $('#sns-setting-up-message').show();
+    //     }, function() {
+    //         $('#sns-setting-up-message').hide();
+    // });
     
     
     //formの内容をGoogleformへajax送信

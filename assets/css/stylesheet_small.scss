@@ -9,7 +9,7 @@ $main-font: 'HiraKakuProW6';
 
 body{
     margin: 0 0;
-    font-family : "HiraKakuProN6","ヒラギノ角ゴ Pro W3", sans-serif;
+    font-family : sans-serif;
     -webkit-text-size-adjust: 100%;
     -webkit-appearance: none;
 }
@@ -33,13 +33,13 @@ a {
     // セクションタイトルのスタイル
     .section_title {
         font-family: $main-font;
-        font-size: 25px;
+        font-size: 35px;
         margin-left: 20px;
     }
     
     // サブタイトルと文章のスタイル
     .subtitle_and_sentence {
-        // width: 300px;
+        width: 100%;
         display: inline-block;
         text-align: left;
         
@@ -49,15 +49,15 @@ a {
             padding: 14px 18px 14px 18px;
             background-color: #111;
             color: #fff;
-            font-size: 20px;
-            margin-right: 100px;
+            font-size: 16px;
+            margin-right: 0px;
         }
 
         .bold_sentence {
             display: inline-block;
-            padding-left: 5px;
+            padding-left: 20px;
             font-family: $main-font;
-            font-size: 10px;
+            font-size: 12px;
             font-weight: bold;
             line-height: 2;
         }
@@ -118,12 +118,12 @@ a {
 
 
                 p {
-                    width: 160px;
+                    width: 171px;
                     text-align: center;
 
                     font: {
                         family: 'Railway';
-                        size: 10px;
+                        size: 11px;
                     }
                 }
 
@@ -151,7 +151,7 @@ a {
                 text-align: center;
                 background-color: #111;
                 color: #fff;
-                font-size: 20px;
+                font-size: 24px;
                 font-family: $main-font;
             }
 
@@ -160,15 +160,15 @@ a {
                 text-align: left;
                 font-family: $main-font;
                 font-weight: bold;
-                font-size: 8px;
+                font-size: 12px;
                 line-height: 3;
             }
 
             img {
                 display: block;
                 margin: 40px auto 0px auto;
-                height: 30px;
-                width: 96px;
+                height: 40px;
+                width: 128px;
             }
         }
 
@@ -214,12 +214,12 @@ a {
                         p {
                             display: inline-block;
                             font-family: $main-font;
-                            font-size: 10px;
+                            font-size: 12px;
                             padding: 5px 6px 5px 6px;
                             margin: auto 20px auto 10px;
                             background-color: #111;
                             color: #fff;
-                            position: relative; top: -11px;
+                            position: relative; top: -9px;
                         }
                     }
                 }
@@ -273,16 +273,17 @@ a {
                     background-color: #111;
                     color: #fff;
                     font-family: 'Hira Kaku Gothic ProN';
-                    font-size: 12px;
+                    font-size: 16px;
                     padding: 4px 20px 3px 20px;
+                    margin-top: 30px;
                 }
                 
                 .member {
                     display: inline-block;
                     vertical-align: top;
                     text-align: left;
-                    width: 200px;
-                    height: 460px;
+                    width: 240px;
+                    height: 550px;
                     margin: 5px 30px 15px 30px;
                     
                     
@@ -293,14 +294,14 @@ a {
                     .name {
                         display: inline-block;
                         font-family: $main-font;
-                        font-size: 14px;
+                        font-size: 18px;
                         font-weight: bold;
                         margin: 10px auto 0px 0px;
                     }
                     
                     .name_eng {
                         font-family: 'Hiragino Kaku Gothic ProN';
-                        font-size: 10px;
+                        font-size: 12px;
                         color: gray;
                         margin: 0px 0px 0px 0px;
                     }
@@ -321,7 +322,7 @@ a {
                     
                     .introduction {
                         font-family: 'Hiragino Kaku Gothic ProN';
-                        font-size: 10px;
+                        font-size: 12px;
                         color: gray;
                         margin-bottom: 0px;
                     }
@@ -329,7 +330,7 @@ a {
                     .school {
                         display: inline-block;
                         font-family: 'Hiragino Kaku Gothic ProN';
-                        font-size: 3px;
+                        font-size: 12px;
                         color: gray;
                         margin-top: 0px;
                     }
@@ -369,27 +370,27 @@ a {
                         display: inline-block;
 
                         li {                            
-                            width: 160px;
+                            width: 170px;
                             height: 100px;
                             display: inline-block;
 
                             .jobs{                                
                                 font-family: $main-font;
                                 font-weight: bold;
-                                font-size: 14px;
+                                font-size: 16px;
                                 margin-top: 10px;
                                 margin-bottom: 0;
                                 height: 45px;
                             }
 
                             .ichigyou_jobs {
-                                position: relative; top: 5px; //垂直中央
+                                position: relative; top: 8px; //垂直中央
                             }
 
                             .explain {
                                 display: inline-block;
                                 font-family: 'Hiragino Kaku Gothic ProN';
-                                font-size: 8px;
+                                font-size: 12px;
                                 color: #505050;
                                 line-height: 1.2;
                                 vertical-align: bottom;
@@ -431,7 +432,7 @@ a {
                 margin-left: 40px;
                 font-family: $main-font;
                 font-weight: bold;
-                font-size: 10px;
+                font-size: 13px;
                 line-height: 3;
                 height: 150px;
 
@@ -451,7 +452,7 @@ a {
                 display: block;
                 width: 80%;
                 height: 250px;
-                margin: 50px auto 0px auto;
+                margin: 70px auto 0px auto;
             }
         }
 
@@ -468,7 +469,7 @@ a {
                 ul {
                     width: 180px;
                     margin: 0 auto;
-                    padding-top: 60px;
+                    padding-top: 40px;
                     padding-left: 0px;
 
                     li {
@@ -477,7 +478,7 @@ a {
 
                         label {
                             font-family: $main-font;
-                            font-size: 8px;
+                            font-size: 12px;
                             font-weight: bold;
                             width: 160px;
                             float: left;
@@ -500,7 +501,7 @@ a {
                 p {
                     text-align: center;
                     font-family: 'Hiragino Kaku Gothic ProN';
-                    font-size: 8px;
+                    font-size: 10px;
                     color: gray;
                 }
 
@@ -513,7 +514,7 @@ a {
                     background-color: #111;
                     color: #fff;
                     font-family: 'Hira Kaku Gothic ProN';
-                    font-size: 10px;
+                    font-size: 13px;
                     padding: 3px 15px 2px 15px;
                     border-radius: 15px;
                 }
