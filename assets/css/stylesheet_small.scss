@@ -9,6 +9,9 @@ $main-font: 'HiraKakuProW6';
 
 body{
     margin: 0 0;
+    font-family : "HiraKakuProN6","ヒラギノ角ゴ Pro W3", sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -webkit-appearance: none;
 }
 
 .small_none {
@@ -43,10 +46,10 @@ a {
         .subtitle {
             display: inline-block;
             font-family: $main-font;
-            font-size: 12px;
             padding: 14px 18px 14px 18px;
             background-color: #111;
             color: #fff;
+            font-size: 20px;
             margin-right: 100px;
         }
 
@@ -54,7 +57,7 @@ a {
             display: inline-block;
             padding-left: 5px;
             font-family: $main-font;
-            font-size: 4px;
+            font-size: 10px;
             font-weight: bold;
             line-height: 2;
         }
