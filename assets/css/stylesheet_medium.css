@@ -1,6 +1,6 @@
 body {
   margin: 0 0;
-  font-family: sans-serif;
+  font-family: 'Hiragino Kaku Gothic ProN',sans-serif;
   -webkit-text-size-adjust: 100%;
   -webkit-appearance: none;
 }
@@ -18,7 +18,7 @@ a {
 }
 
 .container .section_title {
-  font-family: "HiraKakuProW6";
+  font-family: "Hiragino Kaku Gothic ProN";
   font-size: 45px;
   margin-left: 20px;
 }
@@ -32,7 +32,7 @@ a {
 
 .container .subtitle_and_sentence .subtitle {
   display: inline-block;
-  font-family: "HiraKakuProW6";
+  font-family: "Hiragino Kaku Gothic ProN";
   font-size: 18px;
   padding: 14px 18px 14px 18px;
   background-color: #111;
@@ -42,7 +42,7 @@ a {
 .container .subtitle_and_sentence .bold_sentence {
   display: inline-block;
   padding-left: 60px;
-  font-family: "HiraKakuProW6";
+  font-family: "Hiragino Kaku Gothic ProN";
   font-size: 14px;
   font-weight: bold;
   line-height: 2;
@@ -55,7 +55,7 @@ a {
 }
 
 .container #header .nav {
-  font-family: 'Railway';
+  font-family: 'Hiragino Kaku Gothic ProN';
   font-size: 12px;
   list-style: none;
   text-align: right;
@@ -109,7 +109,7 @@ a {
 }
 
 .container #header .wrapper #header_logo2 p {
-  font-family: 'Railway';
+  font-family: 'Hiragino Kaku Gothic ProN';
   font-size: 15px;
 }
 
@@ -138,13 +138,13 @@ a {
   background-color: #111;
   color: #fff;
   font-size: 35px;
-  font-family: "HiraKakuProW6";
+  font-family: "Hiragino Kaku Gothic ProN";
 }
 
 .container #main #vision p {
   display: inline-block;
   text-align: left;
-  font-family: "HiraKakuProW6";
+  font-family: "Hiragino Kaku Gothic ProN";
   font-weight: bold;
   font-size: 14px;
   line-height: 3;
@@ -204,7 +204,7 @@ a {
 
 .container #main #about #strongpoints-bg #strong_points .block p {
   display: inline-block;
-  font-family: "HiraKakuProW6";
+  font-family: "Hiragino Kaku Gothic ProN";
   font-size: 14px;
   padding: 10px 12px 10px 12px;
   margin: auto 20px auto 10px;
@@ -261,7 +261,7 @@ a {
   cursor: pointer;
   background-color: #111;
   color: #fff;
-  font-family: 'Hira Kaku Gothic ProN';
+  font-family: 'Hiragino Kaku Gothic ProN';
   font-size: 18px;
   padding: 6px 25px 5px 25px;
   margin-top: 30px;
@@ -271,8 +271,8 @@ a {
   display: inline-block;
   vertical-align: top;
   text-align: left;
-  width: 240px;
-  height: 550px;
+  width: 250px;
+  height: 560px;
   margin: 5px 30px 0px 30px;
 }
 
@@ -282,7 +282,7 @@ a {
 
 .container #main #members .wrapper .member .name {
   display: inline-block;
-  font-family: "HiraKakuProW6";
+  font-family: "Hiragino Kaku Gothic ProN";
   font-size: 18px;
   font-weight: bold;
   margin: 10px auto 0px 0px;
@@ -296,14 +296,14 @@ a {
 }
 
 .container #main #members .wrapper .member .position {
-  font-family: "HiraKakuProW6";
+  font-family: "Hiragino Kaku Gothic ProN";
   font-size: 10px;
   font-weight: bold;
   margin: 0px 0px 0px 0px;
 }
 
 .container #main #members .wrapper .member .hashtag {
-  font-family: "HiraKakuProW6";
+  font-family: "Hiragino Kaku Gothic ProN";
   font-size: 10px;
   color: #505050;
   margin: 0px 0px 0px 0px;
@@ -346,7 +346,7 @@ a {
 }
 
 .container #main #recruit .section .hyou h3 {
-  font-family: "HiraKakuProW6";
+  font-family: "Hiragino Kaku Gothic ProN";
   margin-bottom: 0;
 }
 
@@ -365,7 +365,7 @@ a {
 }
 
 .container #main #recruit .section .hyou ul li .jobs {
-  font-family: "HiraKakuProW6";
+  font-family: "Hiragino Kaku Gothic ProN";
   font-weight: bold;
   font-size: 18px;
   margin-top: 10px;
@@ -399,7 +399,7 @@ a {
 }
 
 .container #main #recruit .section .hyou #entry_button {
-  font-family: "HiraKakuProW6";
+  font-family: "Hiragino Kaku Gothic ProN";
   font-size: 22px;
   display: inline-block;
   text-decoration: none;
@@ -420,7 +420,7 @@ a {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  font-family: "HiraKakuProW6";
+  font-family: "Hiragino Kaku Gothic ProN";
   font-weight: bold;
   font-size: 17px;
   line-height: 3;
@@ -466,7 +466,7 @@ a {
 }
 
 .container #main #contact form ul li label {
-  font-family: "HiraKakuProW6";
+  font-family: "Hiragino Kaku Gothic ProN";
   font-size: 18px;
   font-weight: bold;
   margin-right: 20px;
@@ -499,7 +499,7 @@ a {
   cursor: pointer;
   background-color: #111;
   color: #fff;
-  font-family: 'Hira Kaku Gothic ProN';
+  font-family: 'Hiragino Kaku Gothic ProN';
   font-size: 18px;
   padding: 3px 25px;
   border-radius: 15px;
@@ -603,7 +603,7 @@ a {
 }
 
 #thx_header .nav {
-  font-family: 'Railway';
+  font-family: 'Hiragino Kaku Gothic ProN';
   font-size: 8px;
   list-style: none;
   text-align: right;
@@ -638,7 +638,7 @@ a {
 }
 
 #thx #thx-ja {
-  font-family: "HiraKakuProW6";
+  font-family: "Hiragino Kaku Gothic ProN";
   font-size: 22px;
   font-weight: bold;
   margin-top: 200px;

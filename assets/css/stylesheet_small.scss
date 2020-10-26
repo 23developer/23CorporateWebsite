@@ -1,4 +1,5 @@
-$main-font: 'HiraKakuProW6';
+@charset"utf-8";
+$main-font: 'Hiragino kaku Gothic ProN';
 
 .drawer-menu{
     img{
@@ -9,7 +10,7 @@ $main-font: 'HiraKakuProW6';
 
 body{
     margin: 0 0;
-    font-family : sans-serif;
+    font-family : 'Hiragino Kaku Gothic ProN',sans-serif;
     -webkit-text-size-adjust: 100%;
     -webkit-appearance: none;
 }
@@ -32,7 +33,7 @@ a {
 
     // セクションタイトルのスタイル
     .section_title {
-        font-family: $main-font;
+        font-family: 'Hiragino Kaku Gothic ProN';
         font-size: 35px;
         margin-left: 20px;
     }
@@ -45,7 +46,7 @@ a {
         
         .subtitle {
             display: inline-block;
-            font-family: $main-font;
+            font-family: 'Hiragino Kaku Gothic ProN';
             padding: 14px 18px 14px 18px;
             background-color: #111;
             color: #fff;
@@ -69,7 +70,7 @@ a {
         padding-bottom: 150px;
 
         .nav {
-            font-family: 'Railway';
+            font-family: 'Hiragino Kaku Gothic ProN';
             font-size: 10px;
             list-style: none;
             padding-left: 0;
@@ -122,7 +123,7 @@ a {
                     text-align: center;
 
                     font: {
-                        family: 'Railway';
+                        family: 'Hiragino Kaku Gothic ProN';
                         size: 11px;
                     }
                 }
@@ -272,7 +273,7 @@ a {
                     cursor: pointer;
                     background-color: #111;
                     color: #fff;
-                    font-family: 'Hira Kaku Gothic ProN';
+                    font-family: 'Hiragino Kaku Gothic ProN';
                     font-size: 16px;
                     padding: 4px 20px 3px 20px;
                     margin-top: 30px;
@@ -513,7 +514,7 @@ a {
                     cursor: pointer;
                     background-color: #111;
                     color: #fff;
-                    font-family: 'Hira Kaku Gothic ProN';
+                    font-family: 'Hiragino Kaku Gothic ProN';
                     font-size: 13px;
                     padding: 3px 15px 2px 15px;
                     border-radius: 15px;

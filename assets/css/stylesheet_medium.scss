@@ -1,8 +1,8 @@
-$main-font: 'HiraKakuProW6';
+$main-font: 'Hiragino Kaku Gothic ProN';
 
 body{
     margin: 0 0;
-    font-family: sans-serif;
+    font-family: 'Hiragino Kaku Gothic ProN',sans-serif;
     -webkit-text-size-adjust: 100%;
     -webkit-appearance: none;
 }
@@ -57,7 +57,7 @@ a {
         padding-bottom: 150px;
         
         .nav {
-            font-family: 'Railway';
+            font-family: 'Hiragino Kaku Gothic ProN';
             font-size: 12px;
             list-style: none;
             text-align: right;
@@ -106,7 +106,7 @@ a {
 
                 p {
                     font: {
-                        family: 'Railway';
+                        family: 'Hiragino Kaku Gothic ProN';
                         size: 15px;
                     }
                 }
@@ -257,7 +257,7 @@ a {
                     cursor: pointer;
                     background-color: #111;
                     color: #fff;
-                    font-family: 'Hira Kaku Gothic ProN';
+                    font-family: 'Hiragino Kaku Gothic ProN';
                     font-size: 18px;
                     padding: 6px 25px 5px 25px;
                     margin-top: 30px;
@@ -267,8 +267,8 @@ a {
                     display: inline-block;
                     vertical-align: top;
                     text-align: left;
-                    width: 240px;
-                    height: 550px;
+                    width: 250px;
+                    height: 560px;
                     margin: 5px 30px 0px 30px;
 
                     img{
@@ -495,7 +495,7 @@ a {
                     cursor: pointer;
                     background-color: #111;
                     color: #fff;
-                    font-family: 'Hira Kaku Gothic ProN';
+                    font-family: 'Hiragino Kaku Gothic ProN';
                     font-size: 18px;
                     padding: 3px 25px;
                     border-radius: 15px;
@@ -603,7 +603,7 @@ a {
     padding-bottom: 150px;
     
     .nav {
-        font-family: 'Railway';
+        font-family: 'Hiragino Kaku Gothic ProN';
         font-size: 8px;
         list-style: none;
         text-align: right;
