@@ -1,4 +1,23 @@
 $(document).ready(function(){
+    // スマホの時のみドロワーメニュー有効化
+    $('.drawer').drawer();
+    $('.drawer-menu li').on('click', function() {
+        $('.drawer').drawer('close');
+    });
+
+
+    // スムーススクロール
+    $(function(){
+        $('a[href^="#"]').click(function(){
+          var speed = 500;
+          var href= $(this).attr("href");
+          var target = $(href == "#" || href == "" ? 'html' : href);
+          var position = target.offset().top;
+          $("html, body").animate({scrollTop:position}, speed, "swing");
+          $('.drawer').drawer('close');
+          return false;
+        });
+    });
     
     
     // membersにOther membersボタンを実装
@@ -56,57 +75,49 @@ $(document).ready(function(){
             $('#sns-setting-up-message').show();
         }, function() {
             $('#sns-setting-up-message').hide();
-        }
-        );
-        
-        
-        // スマホの時のみドロワーメニュー有効化
-        $('.drawer').drawer();
-        $('.drawer-menu li').on('click', function() {
-            $('.drawer').drawer('close');
-        });
-        
-        
-        //formの内容をGoogleformへajax送信
-        $("#googleforme").submit(function() {
-            var name = $("#name").val();
-            var email = $("#email").val();
-            var msg = $("#msg").val();
-
-            $.ajax({
-                url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLScTYYAUyyrIaRm7lbWuf0p2ZtT6wxdRUiWQJ6Jfm-cgxPiPkA/formResponse",
-                data: {"entry.698167586": name, "entry.393581839": email, "entry.1369150218": msg},
-                type: "POST",
-                dtaatype: "xml"
-            })
-                .always((data) => {
-                window.location.href="./thx.html";
-            })
-
-            event.preventDefault();
-        });
-
-
-        // navにマウスオーバー時に文字色変更
-        $('.hover-contents').each(function() {
-            if($(this).hasClass("not-frame-nav")){
-                $(this).hover(
-                    function(){
-                        $(this).stop().animate({'color': '#F8DD00'},300);
-                    },
-                    function(){
-                        $(this).stop().animate({'color': '#010101'},300);
-                    }
-                )
-            } else{
-                $(this).hover(
-                    function(){
-                        $(this).stop().animate({'background-color': '#F8DD00', 'color': '#FFF', 'border-color': '#111'},200);
-                    },
-                    function(){
-                        $(this).stop().animate({'background-color': 'transparent', 'color': '#111', 'border-color': '#111'},200);
-                    }
-            )};
-        });
     });
+    
+    
+    //formの内容をGoogleformへajax送信
+    $("#googleforme").submit(function() {
+        var name = $("#name").val();
+        var email = $("#email").val();
+        var msg = $("#msg").val();
+
+        $.ajax({
+            url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLScTYYAUyyrIaRm7lbWuf0p2ZtT6wxdRUiWQJ6Jfm-cgxPiPkA/formResponse",
+            data: {"entry.698167586": name, "entry.393581839": email, "entry.1369150218": msg},
+            type: "POST",
+            dtaatype: "xml"
+        })
+            .always((data) => {
+            window.location.href="./thx.html";
+        })
+
+        event.preventDefault();
+    });
+
+
+    // navにマウスオーバー時に文字色変更
+    $('.hover-contents').each(function() {
+        if($(this).hasClass("not-frame-nav")){
+            $(this).hover(
+                function(){
+                    $(this).stop().animate({'color': '#F8DD00'},300);
+                },
+                function(){
+                    $(this).stop().animate({'color': '#010101'},300);
+                }
+            )
+        } else{
+            $(this).hover(
+                function(){
+                    $(this).stop().animate({'background-color': '#F8DD00', 'color': '#FFF', 'border-color': '#111'},200);
+                },
+                function(){
+                    $(this).stop().animate({'background-color': 'transparent', 'color': '#111', 'border-color': '#111'},200);
+                }
+        )};
+    });
+});
     
