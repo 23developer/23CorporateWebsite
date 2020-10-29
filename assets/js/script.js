@@ -85,8 +85,8 @@ $(document).ready(function(){
         var msg = $("#msg").val();
 
         $.ajax({
-            url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLScTYYAUyyrIaRm7lbWuf0p2ZtT6wxdRUiWQJ6Jfm-cgxPiPkA/formResponse",
-            data: {"entry.698167586": name, "entry.393581839": email, "entry.1369150218": msg},
+            url: "https://docs.google.com/forms/u/2/d/e/1FAIpQLScNifRskONHcHcW5rva7LcfsHN2Tx9NoQnUCqHb8amfXQHMjQ/formResponse",
+            data: {"entry.1382900600": name, "entry.1509391589": email, "entry.1327206964": msg},
             type: "POST",
             dtaatype: "xml"
         })
