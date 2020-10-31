@@ -184,13 +184,15 @@ a {
 }
 
 .container #main #about #strongpoints-bg {
-  text-align: center;
+  width: 280px;
+  margin: 0px auto;
+  padding-left: 30px;
 }
 
 .container #main #about #strongpoints-bg #strong_points {
   margin-top: 30px;
   display: inline-block;
-  text-align: center;
+  text-align: left;
 }
 
 .container #main #about #strongpoints-bg #strong_points .block {
@@ -273,7 +275,7 @@ a {
   vertical-align: top;
   text-align: left;
   width: 240px;
-  height: 550px;
+  height: 555px;
   margin: 5px 30px 15px 30px;
 }
 
